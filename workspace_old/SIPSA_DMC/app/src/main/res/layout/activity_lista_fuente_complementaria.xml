@@ -1,0 +1,101 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+android:id="@+id/coordinator1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listaFuenteComplementaria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/famFuenteComplentaria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_colorNormal="@color/accent"
+        fab:menu_colorPressed="@color/white"
+        fab:menu_colorRipple="@color/background"
+        >
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabSeleccionarFuenteComplementaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Seleccionar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAgregarFuenteComplementaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Agregar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabEditarFuenteComplementaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_edit"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Editar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabEliminarFuenteComplementaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Eliminar" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

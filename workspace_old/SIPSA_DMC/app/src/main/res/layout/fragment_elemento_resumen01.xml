@@ -1,0 +1,78 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="2dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp"
+                android:showDividers="middle">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/iconStatus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:text="@string/icon_check"
+                        android:textSize="20sp"
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/accent"
+                        android:layout_alignParentRight="true"
+                        />
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    >
+
+                        <TextView
+                            android:id="@+id/tvNombreFuente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoText="false"
+                            android:paddingRight="25sp"
+                            android:text="Nombre Articulo"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textIsSelectable="false"
+                            android:textSize="@dimen/text_size_m" />
+
+                </LinearLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

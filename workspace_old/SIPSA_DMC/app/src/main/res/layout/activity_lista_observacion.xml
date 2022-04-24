@@ -1,0 +1,135 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:showDividers="middle">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup"
+                android:layout_gravity="center_horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:tag="SI"
+                    android:text="@string/existentes"
+                    android:id="@+id/rbExistentes" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:tag="NO"
+                    android:text="@string/relativas"
+                    android:id="@+id/rbRelativas"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:tag="NO"
+                    android:text="@string/todas"
+                    android:id="@+id/rbTodas" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+android:id="@+id/coordinator1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listaObervaciones"
+                android:layout_width="match_parent"
+                android:paddingBottom="150dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/famObservacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_colorNormal="@color/accent"
+        fab:menu_colorPressed="@color/white"
+        fab:menu_colorRipple="@color/background"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAgregarObservacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Agregar" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabGuardarObservacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_save"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_size="mini"
+            fab:fab_label="Guardar" />
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

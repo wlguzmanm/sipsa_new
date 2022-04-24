@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">SIPSA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="nav_item_fuentes">Fuentes</string>
+    <string name="nav_item_estadisticas">Estadisticas</string>
+    <string name="nav_item_configuracion">Configuración</string>
+    <string name="drawer_header_text">Nombre Usuario</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id al</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_fuentes">Fuentes</string>
+    <string name="action_search">Buscar</string>
+    <string name="btn_recolectar">Recolectar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_editar_distrito">Editar Fuente</string>
+
+
+    <string name="icon_inquiry">&#xf044;</string>
+    <string name="icon_check">&#xf058;</string>
+    <string name="icon_fa_angle_double_right">&#xf101;</string>
+
+    <string name="icon_notification">&#xf0e5;</string>
+    <string name="title_activity_activity_fuente_detalle">activity_fuenteDetalle</string>
+
+    <string name="nombre">Nombre Fuente</string>
+    <string name="direccion">Dirección</string>
+    <string name="informante">Informante</string>
+    <string name="municipio">Ciudad</string>
+    <string name="grupoFuente">Grupo Fuente</string>
+    <string name="estrato">Estrato</string>
+    <string name="sector">Sector</string>
+    <string name="seccion">Sección</string>
+    <string name="manzana">Manzana</string>
+    <string name="clase">Clase</string>
+
+    <string name="pe">PE</string>
+    <string name="is">IS</string>
+    <string name="telefono">Telefono</string>
+    <string name="telefonoInformante">Telefono Informante</string>
+    <string name="fax">Fax</string>
+    <string name="email">Email</string>
+    <string name="idtipoPuntoVenta">Tipo Punto Venta</string>
+    <string name="zona">Zona</string>
+    <string name="codigoInterno">Codigo Interno</string>
+    <string name="municipioDistrito">Municipio Distrito</string>
+
+
+    <string name="primerNivel">Primer Nivel</string>
+    <string name="segundoNivel">Segundo Nivel</string>
+    <string name="pendientes">Pendientes</string>
+
+    <string name="existentes">Existentes</string>
+    <string name="existentesDistrito">ExistentesDis</string>
+    <string name="relativas">Relativas</string>
+    <string name="todas">Todas</string>
+    <string name="artiCaraValores">Observacion</string>
+    <string name="indeces">Indices</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="selecionarTodas">Seleccionar Todas</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="prop">Prop</string>
+    <string name="nombre_fuente_complementaria">Nombre Fuente Complementaria</string>
+    <string name="obtenerMensual">Obtener Mensual</string>
+    <string name="obtenerRecoleccion">Obtener Recolección</string>
+    <string name="actualizarFecha">Actualizar Fecha</string>
+    <string name="subirRecoleccion">Subir Recolección</string>
+
+    <string name="valorActual">Información Actual</string>
+    <string name="valorOriginal">Información Original</string>
+    <string name="success">Información Cargada Exitosamente</string>
+
+    <string name="cantidadInvalida">Cantidad Invalida</string>
+    <string name="cantidad">Cantidad</string>
+
+    <string name="invalido">Campo requerido</string>
+
+    <string name="invalido_cuatro_cifras">Debe tener cuatro cifras</string>
+
+    <string name="invalido_dos_cifras">Debe tener dos cifras</string>
+
+    <string name="correo_invalido">Correo Invalido</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="DB_PATH">AlistamientoDMC</string>
+
+</resources>

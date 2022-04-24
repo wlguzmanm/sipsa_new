@@ -1,0 +1,314 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:showDividers="middle">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right">
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"
+                            android:text="Casa Comercial : "
+                            android:textIsSelectable="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/etCodigoTematico"
+                            android:textIsSelectable="false"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"
+                            android:text="Presentación :"
+                            android:textIsSelectable="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/etUnidadBase"
+                            android:textIsSelectable="false"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"
+                            android:text="Unidad :"
+                            android:textIsSelectable="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/etCantidadBase"
+                            android:textIsSelectable="false"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"/>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:autoText="false"
+                                android:text="Registro ICA :"
+                                android:textIsSelectable="false" />
+
+                            <TextView
+                                android:id="@+id/etCantidadAnterior"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:autoText="false"
+                                android:paddingLeft="155dp"
+                                android:paddingRight="25sp"
+                                android:textIsSelectable="false" />
+
+
+                            <Button
+                                android:id="@+id/btnIconEquals"
+                                style="?android:attr/buttonStyleSmall"
+                                android:text="="
+                                android:textSize="15sp"
+                                android:layout_width="25sp"
+                                android:layout_height="25sp"
+                                android:background="@color/accent"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/white"
+                                android:textAlignment="center"
+                                android:layout_alignParentRight="true"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:id="@+id/llPrecioAnterior"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Precio Anterior: "
+                            android:textIsSelectable="false"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/tvPrecioAnterior"
+                            android:textIsSelectable="false"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false"/>
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:showDividers="middle">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_sm"
+                        android:text="ACTUAL"
+                        android:layout_gravity="center" />
+
+
+                    <LinearLayout
+                        android:id="@+id/llPrecioRecoleccion"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Precio : "
+                            android:textIsSelectable="true"
+                            android:layout_marginRight="5dp"
+                            android:autoText="false" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/etPrecioRecoleccion1"
+                            android:layout_weight="1"
+                            android:inputType="numberDecimal"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvObservaciones"
+            android:layout_margin="1dp">
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvNovedad"
+            android:layout_margin="1dp">
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvIndices"
+            android:layout_margin="1dp">
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvFuenteComplementaria"
+            android:layout_margin="1dp">
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

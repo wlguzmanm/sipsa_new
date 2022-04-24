@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="gov.dane.sipsa">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="gov.dane.sipsa.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteDetalleActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteDetalleDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteRecoleccionDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteRecoleccionActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ListaObservacionActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ListaObservacionDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.NuevaObservacionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.NuevaObservacionDistritoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ResumenActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionNuevoArticuloActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionNuevoArticuloDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ResumenFuentesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteAddElementoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FuenteAddElementoDistritoActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.MapaActivity"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.EscogerAplicacionActivity"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.MainActivity01"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.FactorRecoleccionActivity01"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionActivity01"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ResumenRecoleccionActivity01"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.RecoleccionNuevoArticuloActivity01"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ListaObservacionActivity01"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.AdicionarArticuloActivity01"
+            android:label="@string/title_activity_fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.NuevaObservacionActivity01"
+            android:label="Nueva Observacion"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ResumenEnvioActivity01"
+            android:label="Envio de Elementos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.ResumenEnvioDistritoActivity"
+            android:label="Envio de Elementos"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="gov.dane.sipsa.activity.MainActivity02"
+            android:label="Fuentes"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="gov.dane.sipsa.activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="gov.dane.sipsa.activity.SettingsActivityDistrito"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme"></activity>
+
+    </application>
+
+</manifest>

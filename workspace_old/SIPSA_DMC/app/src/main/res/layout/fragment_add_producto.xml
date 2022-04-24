@@ -1,0 +1,117 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="1dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:showDividers="middle">
+<!--
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </RelativeLayout>
+-->
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginRight="7dp">
+
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre Producto"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/cbProducto" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="7dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:text="ICA: "
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="5dp"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:id="@+id/etIcaArticulo"
+                    android:text=""
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="20dp"
+                    android:autoText="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="7dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:text="Casa Comercial: "
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="5dp"
+                    android:autoText="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:id="@+id/etCasaComercial"
+                    android:text=""
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="20dp"
+                    android:autoText="false" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
