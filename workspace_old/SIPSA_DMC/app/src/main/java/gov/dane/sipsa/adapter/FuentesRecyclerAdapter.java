@@ -134,7 +134,6 @@ public class FuentesRecyclerAdapter extends RecyclerView.Adapter<FuentesRecycler
         });
 
 
-
     }
 
     @Override

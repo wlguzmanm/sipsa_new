@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Ver Totales"
+        android:orderInCategory="100"
+        android:id="@+id/verTotales"
+        android:iconTint="@color/dane"
+        android:icon="@drawable/ic_main_configuracion" />
+
+
+    <item android:title="Salir Módulo"
+        android:orderInCategory="100"
+        android:id="@+id/salirModulo"
+        android:iconTint="@color/dane"
+        android:icon="@drawable/ic_main_configuracion" />
+
+    <item android:title="Salir Aplicación"
+        android:orderInCategory="100"
+        android:id="@+id/salirApp"
+        android:iconTint="@color/dane"
+        android:icon="@drawable/ic_main_configuracion" />
+
+</menu>

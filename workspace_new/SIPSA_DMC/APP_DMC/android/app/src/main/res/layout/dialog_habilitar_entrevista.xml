@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/titulo_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/atras"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                app:srcCompat="@drawable/ic_error_outline"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/dane"
+                android:fontFamily="sans-serif"
+                android:text="Confirmación resultado entrevista" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text_entrevista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="10dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titulo_encuesta"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/dialog_continuar_entrevista_si"
+            style="@style/btn_fondo_secundario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:clickable="false"
+                app:srcCompat="@drawable/ic_check"
+                app:tint="@color/ms_white" />
+
+            <TextView
+                style="@style/titulo_negrita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Si, continuar entrevista"
+                android:textColor="@color/ms_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_cerrar_entrevista_no"
+            style="@style/btn_fondo_eliminar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:clickable="false"
+                app:srcCompat="@drawable/ic_close"
+                app:tint="@color/ms_white" />
+
+            <TextView
+                style="@style/titulo_negrita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No, continuar en el capítulo"
+                android:textColor="@color/ms_white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

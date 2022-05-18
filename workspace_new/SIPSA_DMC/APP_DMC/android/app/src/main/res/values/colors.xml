@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#14668c</color>
+
+    <color name="titulos">#666464</color>
+    <color name="blanco">#ffff</color>
+    <color name="dane">#14668c</color>
+    <color name="dane_claro">#757575</color>
+    <color name="gris_claro">#FBFBFB</color>
+    <color name="gris_oscuro">#BCB8B8</color>
+    <color name="raton">#6D6D6D</color>
+    <color name="negro">#000</color>
+
+    <color name="blueDarkless">#00559E</color>
+
+    <color name="amarillo">#D3B200</color>
+
+    <color name="rojo">#881D1D</color>
+    <color name="rojo_oscuro">#7A1414</color>
+    <color name="verde">#196500</color>
+    <color name="poligono_touch">#50A3E8FF</color>
+    <color name="poligono_touch_boundary">#56D5FF</color>
+    <color name="color_sipsa">#B80050</color>
+
+
+    <color name="poligono_cerrado">#508BECC1</color>
+    <color name="poligono_cerrado_boundary">#28C27D</color>
+    <color name="poligono_cerrado_seleccionado">#C22851</color>
+
+    <color  name="transparent">#00000000</color>
+
+
+
+
+    
+    <color name="accent">#ff4081</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_light">#c13f51b5</color>
+    <color name="gray">#57000000</color>
+    <color name="gray_light">#1d000000</color>
+
+    <color name="info">#2BABE3</color>
+    <color name="success">#57ad6b</color>
+    <color name="color_default">#57000000</color>
+    <color name="warning">#a9e4a747</color>
+    <color name="danger">#f4ff0000</color>
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="black">#000000</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+</resources>

@@ -33,109 +33,414 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ae5280-6780-42c4-b849-7580ea275d6f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/SIPSA_DMC.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/androidTest/java/co/gov/dane/sipsa/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/index.android.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaCIUUTemp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaComunas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDirectorio7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDivipola" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaDivipola2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaPuebloIndigena" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaResguardoIndigena" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/assets/infoTablaTierraComunidadNegra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/ConfiguracionLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Controlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/FuenteAddElementoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Helper/DateInputMask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Helper/RetrofitClientInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Helper/ThousandSeparatorTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Helper/ValidadorTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/ListaObservacionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Mensajes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/NuevaObservacionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/OnStartDragListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/RecoleccionNuevoArticuloActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Splash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/VolleyCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/AdapterFuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/AddElementoRecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/ItemTouchHelperAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/ItemTouchHelperViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/ObservacionesRecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/RestoreBackupAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/adapter/SimpleItemTouchHelperCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/assets/utilidades/ViewComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/BackupAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/DatabaseCargueInfoTablas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/IDatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArtiCaraValoresI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArtiCaraValoresI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArticuloDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArticuloDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArticuloDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArticuloI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ArticuloI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CaracteristicaDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CaracteristicaDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CaracteristicaI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CaracteristicaI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CasaComercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CasaComercialDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Ciudad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CiudadDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Clase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ClaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Configuracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ConfiguracionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Coordenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/CoordenadaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/DaoMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/DaoSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ElementoEspecificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ElementoEspecificacionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/EnvioArtiCaraValoresI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/EnvioArtiCaraValoresI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Fuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteArticuloDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteArticuloDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteArticuloDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteElementoRestriccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteElementoRestriccionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteTireI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/FuenteTireI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Grupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/GrupoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/GrupoInsumoI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/GrupoInsumoI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/IndiceElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/IndiceElementoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/InformadorI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/InformadorI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Informante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/InformanteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Observacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ObservacionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ObservacionDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ObservacionDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ObservacionI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ObservacionI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Presentacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/PresentacionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/PrincipalDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/PrincipalI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/PrincipalI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Recoleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionDistritoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionInsumo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/RecoleccionInsumoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/SubGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/SubGrupoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/SupValorEspAnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/SupValorEspAntDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/TipoRecoleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/TipoRecoleccionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/UnidadMedida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/UnidadMedidaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/UsuarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ValcarapermitidosI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/dao/ValcarapermitidosI01Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Elemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Elemento01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/EnvioFormularioViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/EnvioRecoleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/EnvioRecoleccion01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/EnvioRecoleccion02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Factor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/FactorI01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/GrupoFuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/IndiceResumen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/JwtViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Municipio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Nivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/NovedadRecoleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ObservacionElem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Offline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ParametrosDistrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ParametrosInsumos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ParametrosInsumos01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/PolygonTap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/PolygonUnidadCobertura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Presentacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/RecoleccionPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/RecoleccionPrincipal01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/RequestAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/RequestStatusViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ResponseFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ResponseToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/RestoreBackup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Resumen01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ResumenFuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/StatusFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Tendencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/UserTokenViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/ValorCaracteristica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/backend/model/Zona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/dtos/BackupAutoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/interfaces/IAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/interfaces/OnItemClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/service/SincronizacionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/utils/ExternalStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/utils/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/utils/JSONResourceReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/utils/MoneyTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/java/co/gov/dane/sipsa/utils/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable-v21/ic_menu_acerca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable-v21/ic_menu_ayuda.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_add_circle_outline_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_edit_off_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_exit_to_app_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_phonelink_ring_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_preview_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_sync_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_sync_alt_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_sync_alt_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_sync_disabled_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_sync_problem_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_verified_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_verified_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_warning_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_warning_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_warning_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_wifi_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_wifi_off_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/baseline_zoom_in_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_boton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_close.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_editar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_eliminar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_fondo_eliminar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_fondo_secundario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_fondo_success.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_gris.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_rojo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_secundario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_button_success.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_edit_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/borde_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/border_text_guardado.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/boton_azul.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/boton_verde.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/capitulo_1_barrido.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/capitulo_1_movil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/edit_text_design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/edit_text_disable_design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_arrow_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_arrow_drop_down.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_bienvenidoalsistema.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_cancel_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_close.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_cloud_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_databse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_delete_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_description_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_done_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_error_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_gps_fixed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_icon_nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_info_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_keyboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_keyboard_arrow_down_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_keyboard_arrow_up_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_logo_dane.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_mail_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_main_configuracion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_main_mensaje.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_menu_logo_gobierno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_menu_salir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_phone_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_photo_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_ping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_save.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_splash_scaner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/ic_success_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/spinner_sla.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/splash_fw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/drawable/thumb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/font/fuentes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/font/roboto.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/activity_elemento_nuevo_recoleccion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/activity_fuente_add_producto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/activity_lista_observacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/activity_nueva_observacion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/adapter_restore_backup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/app_bar_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/content_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_editar_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_eliminar_formulario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_eliminar_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_error_general.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_finalizar_formulario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_habilitar_entrevista.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_habilitar_formulario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_informativo_general.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_restore_back_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_seleccion_ciiu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/dialog_sincronizacion_encuestas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/entrada.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/formulario_listado.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/formulario_offline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/fragment_add_producto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/info_leyenda_encuestas_estados.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/info_leyenda_encuestas_opciones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/info_leyenda_estados.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/info_leyenda_opciones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/nav_header_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/observacion_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/simple_spinner_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/layout/toast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/menu/activity_main2_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/menu/main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_csv_input2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_csv_input2small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_csv_seccionclase2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_agrupado_mg3_noex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_ciiu_res.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_lista_conversiones.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_lista_palabras_secciones.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_lista_sinonimos_mg3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_lista_sinonimos_noex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_palabras_secciones.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_uni_bi_mg3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/raw/assets_palabras_uni_bi_noex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/app/src/test/java/co/gov/dane/sipsa/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/APP_DMC/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/Screenshot_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_new/SIPSA_DMC/Screenshot_56.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sipsadb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_new/prueba2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_23_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_23_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_23_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_23_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_1_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_1_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_basgeekball_awesome_validation_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_basgeekball_awesome_validation_1_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_7_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_7_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_7_4_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getbase_floatingactionbutton_1_10_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getbase_floatingactionbutton_1_10_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_MKergall_osmbonuspack_OSMBonusPack_v5_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_MKergall_osmbonuspack_OSMBonusPack_v5_7_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_clans_fab_1_6_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_clans_fab_1_6_3_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appindexing_8_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appindexing_8_1_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_8_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_8_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_greenrobot_greendao_1_3_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_greenrobot_greendao_1_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_lingala_zip4j_zip4j_1_3_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_lingala_zip4j_zip4j_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_greenrobot_greendao_1_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_greenrobot_greendao_1_3_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_lingala_zip4j_zip4j_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_lingala_zip4j_zip4j_1_3_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_osmdroid_osmdroid_android_5_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_osmdroid_osmdroid_android_5_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_core_2_0_0_M1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_core_2_0_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_rest_template_2_0_0_M1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_rest_template_2_0_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_23_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_cardview_v7_23_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_23_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_multidex_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_multidex_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_multidex_instrumentation_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_23_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_23_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_23_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_basgeekball_awesome_validation_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_annotations_2_7_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_core_2_7_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_7_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_datatype_jackson_datatype_joda_2_7_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_getbase_floatingactionbutton_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_MKergall_osmbonuspack_OSMBonusPack_v5_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_clans_fab_1_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_appindexing_8_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_basement_8_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_19_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_squareup_okhttp_okhttp_2_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_squareup_okio_okio_1_6_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/de_greenrobot_greendao_1_3_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_2_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/net_lingala_zip4j_zip4j_1_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_3_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_osmdroid_osmdroid_android_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_android_spring_android_core_2_0_0_M1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_android_spring_android_rest_template_2_0_0_M1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_core_2_0_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_core_2_0_0_M1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_rest_template_2_0_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_android_spring_android_rest_template_2_0_0_M1_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIPSA_DMC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SIPSA_DMC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity02.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/RecoleccionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/RecoleccionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/service/RestServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/service/RestServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/FuenteDetalleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/FuenteDetalleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/adapter/FuentesRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/adapter/FuentesRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_elemento.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_elemento.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_10_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -155,16 +460,17 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1uMid4cs24GtOBbSTyuf8hoDvBU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.129.101:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-03-06T14:58:42.035Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="DVR0218927000422" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-05-13T02:47:05.164Z" />
     <property name="ExportApk.ApkPath" value="D:\Proyectos\Dane\2019\repositorio\SIPSA_DMC\app" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.BuildVariants" value="release" />
@@ -178,7 +484,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../../ProgramasC/Android/Sdk" />
     <property name="device.picker.selection" value="192.168.70.101:5555" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../sipsadb_genymotion_v2.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../sipsadb.db" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1551923648748" />
@@ -207,13 +513,12 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="SIPSA_DMC.app" />
+      <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -221,7 +526,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
@@ -249,16 +554,11 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -306,12 +606,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="249" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1646406940963">
@@ -323,64 +624,84 @@
     </state>
     <state width="405" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646407127957" />
     <state width="470" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1647824822294" />
-    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1647825084408">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2835" y="260" key="FileChooserDialogImpl" timestamp="1652410252378">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646423924542" />
     <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647825084408" />
-    <state width="933" height="255" key="GridCell.Tab.0.bottom" timestamp="1647826274740">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="194" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650842413177" />
+    <state x="2835" y="260" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652410252378" />
+    <state width="1240" height="400" key="GridCell.Tab.0.bottom" timestamp="1652410146716">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state width="737" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646424117484" />
     <state width="933" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647826274740" />
-    <state width="933" height="255" key="GridCell.Tab.0.center" timestamp="1647826274739">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110038" />
+    <state width="1240" height="400" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652410146716" />
+    <state width="1240" height="400" key="GridCell.Tab.0.center" timestamp="1652410146716">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state width="737" height="249" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646424117483" />
     <state width="933" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647826274739" />
-    <state width="933" height="255" key="GridCell.Tab.0.left" timestamp="1647826274739">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110036" />
+    <state width="1240" height="400" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652410146716" />
+    <state width="1240" height="400" key="GridCell.Tab.0.left" timestamp="1652410146716">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state width="737" height="249" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646424117483" />
     <state width="933" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647826274739" />
-    <state width="933" height="255" key="GridCell.Tab.0.right" timestamp="1647826274739">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110036" />
+    <state width="1240" height="400" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652410146716" />
+    <state width="1240" height="400" key="GridCell.Tab.0.right" timestamp="1652410146716">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state width="737" height="249" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646424117484" />
     <state width="933" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647826274739" />
-    <state width="933" height="255" key="GridCell.Tab.1.bottom" timestamp="1647826274740">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110037" />
+    <state width="1240" height="400" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652410146716" />
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1650903110040">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="927" height="373" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646423969316" />
     <state width="933" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647826274740" />
-    <state width="933" height="255" key="GridCell.Tab.1.center" timestamp="1647826274740">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110040" />
+    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1650903110039">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="927" height="373" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646423969316" />
     <state width="933" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1647826274740" />
-    <state width="933" height="255" key="GridCell.Tab.1.left" timestamp="1647826274740">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110039" />
+    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1650903110038">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="927" height="373" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646423969316" />
     <state width="933" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1647826274740" />
-    <state width="933" height="255" key="GridCell.Tab.1.right" timestamp="1647826274740">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110038" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1650903110039">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="927" height="373" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646423969316" />
     <state width="933" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1647826274740" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1650903110039" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1651070180242">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.2560.1409@0.0.1920.1050" timestamp="1651070180242" />
     <state x="268" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1647006542077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="268" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1647006542077" />
-    <state x="474" y="116" width="736" height="592" key="find.popup" timestamp="1647825457638">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2710" y="198" width="1227" height="1013" key="find.popup" timestamp="1652465822491">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state x="474" y="116" width="588" height="592" key="find.popup/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1646407611992" />
     <state x="474" y="116" width="736" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1647825457638" />
-    <state x="426" y="189" key="run.anything.popup" timestamp="1646338608614">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2710" y="198" width="1227" height="1013" key="find.popup/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652465822491" />
+    <state x="2631" y="323" key="run.anything.popup" timestamp="1652412207705">
+      <screen x="1920" y="0" width="2560" height="1409" />
     </state>
     <state x="426" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1646338608614" />
+    <state x="2631" y="323" key="run.anything.popup/0.0.1920.1050/1920.0.2560.1409@1920.0.2560.1409" timestamp="1652412207705" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1646338634541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -2578,6 +2899,21 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/ListaObservacionActivity.java</url>
           <line>111</line>
           <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity01.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="931" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/MainActivity.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/activity/RecoleccionActivity.java</url>
+          <line>556</line>
+          <option name="timeStamp" value="933" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/gov/dane/sipsa/manager/DatabaseManager.java</url>

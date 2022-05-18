@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:layout_marginVertical="0dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/linear_manzana"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/etNombreArticulo"
+                    android:text="Nombre Articulo"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_m"
+                    android:textIsSelectable="false"
+                    android:paddingRight="25sp"
+                    android:autoText="false" />
+
+            </RelativeLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="right">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp">
+
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:autoText="false"
+                        android:text="Registro ICA/Linea : "
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/text_size_sm" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_sm"
+                        android:id="@+id/etRegistroIca"
+                        android:text=""
+                        android:textIsSelectable="false"
+                        android:layout_marginRight="20dp"
+                        android:autoText="false" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp">
+
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_sm"
+                        android:text="Unidad De Medida: "
+                        android:textIsSelectable="false"
+                        android:layout_marginRight="5dp"
+                        android:autoText="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_sm"
+                        android:id="@+id/etUnidadMedida"
+                        android:text=""
+                        android:textIsSelectable="false"
+                        android:layout_marginRight="20dp"
+                        android:autoText="false" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginBottom="7dp">
+
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_sm"
+                        android:text="Casa Comercial: "
+                        android:textIsSelectable="false"
+                        android:layout_marginRight="5dp"
+                        android:autoText="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_sm"
+                        android:id="@+id/etCasaComercial"
+                        android:text=""
+                        android:textIsSelectable="false"
+                        android:layout_marginRight="20dp"
+                        android:autoText="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iconStatus"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_checkmark_gris" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/iconObservacion"
+            style="@style/titulo_negrita"
+            android:text="@string/icon_notification"
+            android:textSize="@dimen/text_size_sm"
+            android:layout_width="30sp"
+            android:layout_height="35sp"
+            android:background="@color/color_sipsa"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            app:tint="@color/rojo_oscuro"
+            android:padding="2dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewBtnRecolectar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            app:tint="@color/verde"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/baseline_zoom_in_24" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/blanco"
+    tools:context=".FuenteRecoleccionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_sipsa"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/atrasRecolectar"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:background="@color/color_sipsa"
+                style="@style/titulo_negrita"
+                app:srcCompat="@drawable/ic_arrow_back"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/blanco"
+                android:fontFamily="sans-serif"
+                style="@style/titulo_negrita"
+                android:text="Recolectar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/btn_secundario">
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/svSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFactor"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dane"
+                style="@style/titulo_negrita"
+                android:textStyle="bold"
+                android:text="Factor"/>
+            <Spinner
+                android:id="@+id/spFactorFuente"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/borde_spinner"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="30dp"
+                android:hapticFeedbackEnabled="false"
+                android:paddingLeft="4dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="0dp"
+                android:singleLine="true"
+                android:spinnerMode="dialog"
+                android:stateListAnimator="@drawable/spinner_sla"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llGrupo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dane"
+                android:textStyle="bold"
+                android:text="Grupo"
+                style="@style/titulo_negrita"/>
+            <Spinner
+                android:id="@+id/spGrupo"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+
+                android:layout_marginRight="0dp"
+                android:background="@drawable/borde_spinner"
+                android:dropDownWidth="wrap_content"
+                android:dropDownVerticalOffset="30dp"
+                android:hapticFeedbackEnabled="false"
+                android:paddingLeft="4dp"
+                android:popupBackground="@android:color/white"
+                android:popupElevation="0dp"
+                android:singleLine="true"
+                android:spinnerMode="dialog"
+                android:stateListAnimator="@drawable/spinner_sla"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/color_sipsa"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/cbPendientes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:backgroundTint="@color/blanco"
+                    android:textColor="@color/blanco"
+                    android:textSize="14dp"
+                    style="@style/CustomCheckBox"
+                    android:text="Pendientes" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/titulo_negrita"
+                    android:textSize="10dp"
+                    android:textColor="@color/blanco"
+                    android:text="Recolectados : " />
+                <TextView
+                    android:id="@+id/etCompletadas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanco"
+                    android:textSize="10dp"
+                    android:text="0"
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="25px"/>
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/titulo_negrita"
+                    android:textSize="10dp"
+                    android:textColor="@color/blanco"
+                    android:text="Pendientes : " />
+                <TextView
+                    android:id="@+id/etPendientes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanco"
+                    android:textSize="10dp"
+                    android:text="0"
+                    android:textIsSelectable="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="60dp"
+            android:paddingLeft="0dp"
+            android:textColor="@color/dane"
+            style="@style/titulo_negrita"
+            android:text="@string/title_informacion"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:textColor="@color/dane"
+            style="@style/titulo_negrita"
+            android:text="@string/title_opciones"/>
+        <ImageView
+            android:id="@+id/info_leyenda_opciones_recolectar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:tint="@color/dane"
+            android:paddingBottom="10dp"
+            android:layout_gravity="bottom"
+            app:srcCompat="@drawable/ic_info_outline" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/preguntas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/agregarProducto"
+                style="@style/btn_rojo"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/ic_add"/>
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ms_white"
+                    android:text="Agregar"
+                    style="@style/titulo_negrita" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nuevoProducto"
+                style="@style/btn_rojo"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    app:srcCompat="@drawable/ic_add"/>
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ms_white"
+                    style="@style/titulo_negrita"
+                    android:text="Nuevo" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:showDividers="middle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginRight="7dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <CheckBox
+                    android:id="@+id/cbProducto"
+                    style="@style/titulo_negrita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre Producto"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dane" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="7dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:text="ICA: "
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="5dp"
+                    android:autoText="false"
+                    style="@style/titulo_negrita"
+                    android:textColor="@color/dane"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:id="@+id/etIcaArticulo"
+                    android:text=""
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="20dp"
+                    android:autoText="false"
+                    android:textColor="@color/dane" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="7dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:text="Casa Comercial: "
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="5dp"
+                    android:autoText="false"
+                    style="@style/titulo_negrita"
+                    android:textColor="@color/dane" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_sm"
+                    android:id="@+id/etCasaComercial"
+                    android:text=""
+                    android:textIsSelectable="false"
+                    android:layout_marginRight="20dp"
+                    android:autoText="false"
+                    android:textColor="@color/dane" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

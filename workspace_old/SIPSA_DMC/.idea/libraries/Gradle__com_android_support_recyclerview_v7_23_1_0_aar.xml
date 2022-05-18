@@ -1,16 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:recyclerview-v7:23.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/16799c7c554d89ed9f407eaf43cdc650/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/b0b7e1a67cb3a7f9800d3aca2a660e74/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/16799c7c554d89ed9f407eaf43cdc650/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/16799c7c554d89ed9f407eaf43cdc650/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/16799c7c554d89ed9f407eaf43cdc650/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/b0b7e1a67cb3a7f9800d3aca2a660e74/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/b0b7e1a67cb3a7f9800d3aca2a660e74/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.0.aar/b0b7e1a67cb3a7f9800d3aca2a660e74/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://D:/ProgramasC/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.0/recyclerview-v7-23.1.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/23.1.0/e1a86a90e05694c6913dc56c86b45c93fe3b0d43/recyclerview-v7-23.1.0-sources.jar!/" />
+      <root url="jar://D:/ProgramasC/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.0/recyclerview-v7-23.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

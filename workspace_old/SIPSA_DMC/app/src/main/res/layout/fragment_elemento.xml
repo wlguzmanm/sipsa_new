@@ -177,19 +177,19 @@
 
 
                         <LinearLayout
-                            android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
                             <Button
+                                android:id="@+id/btnRecolectar"
                                 android:layout_width="wrap_content"
                                 android:layout_height="35dp"
-                                android:textSize="@dimen/text_size_xs"
+                                android:padding="2dp"
                                 android:text="@string/btn_recolectar"
-                                android:theme="@style/btnPrimary"
                                 android:textColor="@android:color/white"
-                                android:id="@+id/btnRecolectar"
-                                android:padding="2dp" />
+                                android:textSize="@dimen/text_size_xs"
+                                android:theme="@style/btnPrimary" />
 
                         </LinearLayout>
 

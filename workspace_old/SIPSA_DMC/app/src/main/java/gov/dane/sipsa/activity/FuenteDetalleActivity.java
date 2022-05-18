@@ -120,19 +120,7 @@ public class FuenteDetalleActivity extends AppCompatActivity {
         etTelefono = (EditText) findViewById(R.id.etTelefono);
         tvMunicipio =(TextView) findViewById(R.id.tvMunicipio);
 
-        if (fuente != null) {
 
-            etNombre.setText(fuente.getFuenNombre());
-            etDireccion.setText(fuente.getFuenDireccion());
-            etInformante.setText(fuente.getFuenNombreInformante());
-            etEmail.setText(fuente.getFuenEmail());
-            etTelefono.setText(fuente.getFuenTelefono());
-            tvMunicipio.setText(fuente.getMuniNombre());
-        }
-
-        if (municipio != null) {
-            tvMunicipio.setText(municipio.getMuniNombre());
-        }
 
         /*spMunicipio = (Spinner) findViewById(R.id.spMunicipio);
         fillMunicipio();*/

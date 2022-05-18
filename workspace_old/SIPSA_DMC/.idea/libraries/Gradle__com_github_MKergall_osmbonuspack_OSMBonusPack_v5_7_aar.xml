@@ -1,11 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.MKergall.osmbonuspack:OSMBonusPack:v5.7@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/a119c67f33463f305c61a2465e5f7bae/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/a119c67f33463f305c61a2465e5f7bae/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/a119c67f33463f305c61a2465e5f7bae/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/3a5e83e6aff34dc47bf8fadee437be4a/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/3a5e83e6aff34dc47bf8fadee437be4a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/OSMBonusPack-v5.7.aar/3a5e83e6aff34dc47bf8fadee437be4a/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MKergall.osmbonuspack/OSMBonusPack/v5.7/4a5d390d6c74465ff0b5fcff4e840ada5e9ce258/OSMBonusPack-v5.7-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MKergall.osmbonuspack/OSMBonusPack/v5.7/3f54d35c01af154ed84dc84a5a195da6193f1d51/OSMBonusPack-v5.7-sources.jar!/" />
     </SOURCES>

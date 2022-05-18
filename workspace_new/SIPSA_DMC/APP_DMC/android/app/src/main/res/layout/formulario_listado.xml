@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:layout_marginVertical="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/linear_manzana"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tvNombreFuente"
+                android:text="Nombre Fuente"
+                android:textSize="@dimen/text_size_m"
+                android:textIsSelectable="false"
+                android:paddingRight="25sp"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Dirección"
+                android:id="@+id/tvDireccion"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Ciudad"
+                android:id="@+id/tvCiudad"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:id="@+id/tvTelefono"
+                android:textSize="@dimen/text_size_sm"
+                android:padding="2sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informante"
+                android:id="@+id/tvInformante"
+                android:textSize="@dimen/text_size_sm"
+                android:padding="2sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView_editar_insumo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginRight="0dp"
+            app:tint="@color/verde"
+            app:srcCompat="@drawable/ic_edit" />
+        <ImageView
+            android:id="@+id/imageView_listado_recolectar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            app:tint="@color/verde"
+            app:srcCompat="@drawable/baseline_zoom_in_24" />
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
