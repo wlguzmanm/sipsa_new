@@ -47,7 +47,7 @@ public class Splash extends Activity {
     public boolean hasAllPermissionsGranted(@NonNull int[] grantResults) {
         for (int grantResult : grantResults) {
             if (grantResult == PackageManager.PERMISSION_DENIED) {
-                return false;
+               // return false;
             }
         }
         return true;

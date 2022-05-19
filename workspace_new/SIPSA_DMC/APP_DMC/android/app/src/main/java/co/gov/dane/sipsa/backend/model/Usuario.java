@@ -1,7 +1,7 @@
 package co.gov.dane.sipsa.backend.model;
 
 /**
- * Created by tramusoft on 17/05/16.
+ * Created by wlguzmanm on 05/22.
  */
 public class Usuario {
     public Long idPersona;

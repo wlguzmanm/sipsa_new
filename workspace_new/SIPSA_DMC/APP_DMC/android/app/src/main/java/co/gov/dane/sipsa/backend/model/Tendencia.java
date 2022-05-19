@@ -3,7 +3,7 @@ package co.gov.dane.sipsa.backend.model;
 import java.io.Serializable;
 
 /**
- * Created by tramusoft on 17/05/16.
+ * Created by wlguzmanm on 05/22.
  */
 public class Tendencia implements Serializable {
 

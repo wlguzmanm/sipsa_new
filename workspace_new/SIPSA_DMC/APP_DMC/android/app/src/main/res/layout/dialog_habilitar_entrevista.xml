@@ -63,7 +63,7 @@
                 android:layout_margin="5dp"
                 android:clickable="false"
                 app:srcCompat="@drawable/ic_check"
-                app:tint="@color/ms_white" />
+                app:tint="@color/blanco" />
 
             <TextView
                 style="@style/titulo_negrita"
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="Si, continuar entrevista"
-                android:textColor="@color/ms_white" />
+                android:textColor="@color/blanco" />
         </LinearLayout>
 
         <LinearLayout
@@ -90,7 +90,7 @@
                 android:layout_margin="5dp"
                 android:clickable="false"
                 app:srcCompat="@drawable/ic_close"
-                app:tint="@color/ms_white" />
+                app:tint="@color/blanco" />
 
             <TextView
                 style="@style/titulo_negrita"
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="No, continuar en el capítulo"
-                android:textColor="@color/ms_white" />
+                android:textColor="@color/blanco" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

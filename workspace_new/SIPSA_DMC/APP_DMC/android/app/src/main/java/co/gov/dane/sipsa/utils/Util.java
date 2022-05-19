@@ -39,7 +39,7 @@ import co.gov.dane.sipsa.backend.model.Status;
 import co.gov.dane.sipsa.backend.model.StatusFile;
 
 /**
- * Created by tramusoft on 21/05/16.
+ * Created by wlguzmanm on 05/22.
  */
 public  class Util {
 
