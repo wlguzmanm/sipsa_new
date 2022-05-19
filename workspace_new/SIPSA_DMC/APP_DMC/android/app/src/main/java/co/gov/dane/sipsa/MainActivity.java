@@ -37,9 +37,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.app.AlertDialog;
 
-import com.google.android.material.navigation.NavigationView;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+//import com.google.android.material.navigation.NavigationView;
+//import android.support.design.widget.NavigationView;
+
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -69,8 +69,8 @@ import ir.mahdi.mzip.zip.ZipArchive;
 import retrofit2.Call;
 import retrofit2.Callback;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity {
+        //implements NavigationView.OnNavigationItemSelectedListener {
 
     private LinearLayout adicionarFuente;
 
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity
                 R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
+/*
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity
 
         MenuItem nav_user = menu.findItem(R.id.nav_user);
         nav_user.setTitle(session.getusename());
-
+*/
 
         info_leyenda_opciones_fuentes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -291,7 +291,7 @@ public class MainActivity extends AppCompatActivity
         }
         return super.onOptionsItemSelected(item);
     }
-
+/*
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -322,7 +322,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
+    }*/
 
     /**
      * Metodo que prepara los datos dependiendo del municipio

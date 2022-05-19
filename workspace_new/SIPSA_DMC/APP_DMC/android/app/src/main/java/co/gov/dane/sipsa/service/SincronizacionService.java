@@ -109,8 +109,8 @@ public class SincronizacionService extends Service {
         private String cargarListadoManzanasValidar() {
             String retorno = "";
             try{
-                Database dbDatabase=new Database(SincronizacionService.this);
-                SQLiteDatabase spLiteDatabase=dbDatabase.getWritableDatabase();
+                //Database dbDatabase=new Database(SincronizacionService.this);
+                //SQLiteDatabase spLiteDatabase=dbDatabase.getWritableDatabase();
 
                 /*Cursor resCursor =  spLiteDatabase.rawQuery( "SELECT DISTINCT id_manzana, imei, encuestador FROM manzana " +
                         "where pendiente_sincronizar = 'Si' ", null );

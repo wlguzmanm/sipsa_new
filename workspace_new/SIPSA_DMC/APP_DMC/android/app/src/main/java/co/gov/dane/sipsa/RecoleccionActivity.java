@@ -518,7 +518,11 @@ public class RecoleccionActivity extends AppCompatActivity {
                             values.put("PRECIO",recoleccion.getPrecio());
                             values.put("NOVEDAD",recoleccion.getNovedad());
 
-                            databaseManager.save("RECOLECCION", values, false, " ID = "+recoleccion.getId());
+                            if(recoleccion.getId()!= null){
+                                databaseManager.save("RECOLECCION", values, false, " ID = "+recoleccion.getId());
+                            }else{
+                                databaseManager.save("RECOLECCION", values, true, null);
+                            }
                             Toast.makeText(getApplicationContext(), "Recoleccion guardada exitosamente", Toast.LENGTH_SHORT).show();
                             finish();
                         } else if (tipoNovedad.equals("IN")) {
